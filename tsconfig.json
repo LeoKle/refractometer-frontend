@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "module": "CommonJS",
+    "target": "ES2021",
+    "lib": [
+      "ES6",
+      "DOM"
+    ],
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+    },
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "watchOptions": {
+    "watchFile": "fixedpollinginterval"
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.web.json"
+    }
+  ]
+}
