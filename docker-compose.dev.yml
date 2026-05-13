@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build: .
+    container_name: refractometer-frontend
+    ports:
+      - "5173:80"
+
+  backend:
+    image: refractometer:monolith
+    ports:
+      - "8000:8000"
